@@ -2,11 +2,11 @@
  * Clase base que representa a un jugador en el torneo de voleibol.
  */
 public class Jugador {
-    private String nombre;          // Nombre del jugador.
-    private String pais;            // País del jugador.
-    private int errores;            // Número de errores cometidos por el jugador.
-    private int aces;               // Número de aces (puntos directos por servicios) del jugador.
-    private int totalServicios;     // Total de servicios realizados por el jugador.
+    protected String nombre;          // Nombre del jugador.
+    protected String pais;            // País del jugador.
+    protected int errores;            // Número de errores cometidos por el jugador.
+    protected int aces;               // Número de aces (puntos directos por servicios) del jugador.
+    protected int totalServicios;     // Total de servicios realizados por el jugador.
 
     /**
      * Constructor de la clase Jugador.
